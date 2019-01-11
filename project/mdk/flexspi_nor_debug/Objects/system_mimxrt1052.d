@@ -1,0 +1,11 @@
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\system_MIMXRT1052.c
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\fsl_device_registers.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\MIMXRT1052.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\CMSIS\Include\core_cm7.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\CMSIS\Include\cmsis_version.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\CMSIS\Include\cmsis_compiler.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\CMSIS\Include\cmsis_armcc.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\CMSIS\Include\mpu_armv7.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\system_MIMXRT1052.h
+.\flexspi_nor_debug\objects\system_mimxrt1052.o: ..\..\libraries\MIMXRT1052_features.h
