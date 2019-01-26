@@ -1768,13 +1768,16 @@ ARM Macro Assembler    Page 28
               00000000 
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.sp --apcs=
 interwork --depend=.\flexspi_nor_debug\objects\startup_mimxrt1052.d -o.\flexspi
 _nor_debug\objects\startup_mimxrt1052.o -I.\RTE\_lcd_flexspi_nor_debug -ID:\kei
-l5\ARM\PACK\NXP\MIMXRT1052_DFP\10.0.1 -ID:\keil5\ARM\CMSIS\Include --predefine=
-"__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 525" --predefine="CPU_M
-IMXRT1052DVL6B SETA 1" --predefine="__STARTUP_INITIALIZE_NONCACHEDATA SETA 1" -
--list=.\flexspi_nor_debug\listings\startup_mimxrt1052.lst startup_MIMXRT1052.s
+l5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include -ID:\keil5\ARM\PACK\ARM\CMSIS\5.
+4.0\CMSIS\DSP\Include -ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\NN\Include -ID:
+\keil5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM7\Include --predefine="__MICROL
+IB SETA 1" --predefine="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" 
+--predefine="ARMCM7_SP SETA 1" --predefine="__STARTUP_INITIALIZE_NONCACHEDATA S
+ETA 1" --list=.\flexspi_nor_debug\listings\startup_mimxrt1052.lst startup_MIMXR
+T1052.s
 
 
 
@@ -4123,4 +4126,4 @@ Symbol: __main
       At line 341 in file startup_MIMXRT1052.s
 Comment: __main used once
 3 symbols
-564 symbols in table
+565 symbols in table
